@@ -1,23 +1,33 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "inventory",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mssql",
+    "dialectModulePath": "sequelize-msnodesqlv8",
+    "dialectOptions": {
+      "instanceName": "MSSQLSERVER01",
+      "trustedConnection": true
+    },
+    "host": "localhost",
+    "database": "master"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "inventory",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mssql",
+    "dialectModulePath": "sequelize-msnodesqlv8",
+    "dialectOptions": {
+      "instanceName": "MSSQLSERVER01",
+      "trustedConnection": true
+    },
+    "host": "localhost",
+    "database": "master"
   },
+
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "inventory",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mssql",
+    "dialectModulePath": "sequelize-msnodesqlv8",
+    "dialectOptions": {
+      "instanceName": "MSSQLSERVER01",
+      "trustedConnection": true
+    },
+    "host": "localhost",
+    "database": "master"
   }
 }
